@@ -15,10 +15,7 @@ public class GoogleResultParser {
 	private String query;
 
 	public void run(String stringQuery) {
-		if (stringQuery == null) {
-			System.out.println("You should provide query.");
-			return;
-		}
+
 		query = stringQuery.trim();
 		driver.get("http://www.google.com");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
