@@ -7,8 +7,9 @@ Firefox, завантажує сторінку Google, вводить пошук
 
 Для запуску виконати
 
+mvn clean
 mvn package
-java -jar target/CVTest-1.0-SNAPSHOT.jar $1
+java -cp target/CVTest-1.0-SNAPSHOT.jar app.parser.Main $1
 
 $1 - параметр пошуку
 
