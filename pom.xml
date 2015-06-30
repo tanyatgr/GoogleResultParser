@@ -34,7 +34,7 @@
                                 <!-- add Main-Class to manifest file -->
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>cyberVisionTest.task.TitleCollector</mainClass>
+                                    <mainClass>app.parser.Main</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>

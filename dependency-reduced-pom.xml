@@ -18,7 +18,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>cyberVisionTest.task.TitleCollector</mainClass>
+                  <mainClass>app.parser.Main</mainClass>
                 </transformer>
               </transformers>
             </configuration>
